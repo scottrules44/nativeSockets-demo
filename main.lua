@@ -1,5 +1,7 @@
 local nativeSockets = require "plugin.nativeSockets"
-
+nativeSockets.init(function ( e )
+    print(json.encode(e))
+end)
 local json = require "json"
 local widget= require "widget"
 
