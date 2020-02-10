@@ -12,7 +12,14 @@ settings =
 		supported = { "portrait" }
 	},
 	--]]
-
+	android =
+    {
+        usesPermissions =
+        {
+            "android.permission.INTERNET",
+            
+        },
+    },
 	iphone =
 	{
 		xcassets = "Images.xcassets",
